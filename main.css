@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* this is just for visual purpose only remove later */
+
+
+
+/* This is the beginning of Julia's coding */
+body {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.navbar {
+	float: right;
+	margin-right: 10px;
+}
+
+.navbar li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 8px;
+}
+
+.navbar li img {
+	width: 23px;
+}
+
+.navbar li input {
+	background-color: #1C86EE;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-style: none;
+	border-radius: 2px;
+	padding: 6px;
+	font-size: 13px;
+}
+
+.navbar li input:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	clear: both;
+	padding-top: 90px;
+	display: block;
+}
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+	width: 269px;
+	height: 95px;
+}
+
+.searchbox {
+	text-align: center;
+	padding: 15px;
+}
+
+.searchbox input {
+	font-size: 120%;
+	border: 1px solid #E8E8E8;
+	width: 550px;
+	height: 25px;
+	background: url(images/microphone.png) right no-repeat;
+	background-size: 25px;
+}
+
+.searchbox input:hover {
+	border: 1px solid #B8B8B8;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.buttons input {
+	display: inline-block;
+	border-style: none;
+	border-radius: 2px;
+	padding: 6px;
+	background: #F0F0F0;
+	border: 1px solid #D8D8D8;
+	font-weight: bold;
+	color: #585858;
+	margin-right: 10px;
+}
+
+.buttons input:hover {
+	box-shadow: 1px 1px 2px #D0D0D0;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: #E8E8E8;
+	color: #686868;
+}
+
+.left-bottom {
+	float: left;
+}
+
+.left-bottom li {
+	float: left;
+	padding: 15px;
+
+}
+
+.right-bottom {
+	float: right;
+}
+
+.right-bottom li {
+	float: left;
+	padding: 15px;
+}
